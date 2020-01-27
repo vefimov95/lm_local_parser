@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="255438d0-e259-4c03-934c-67258d5e2529" name="Default Changelist" comment="" />
+    <list default="true" id="d9d3d53a-d354-4674-92bb-ad54647976db" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,44 +12,36 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ProjectId" id="1WkyKfmxBKi5YgIud0yKV1fRvAP" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LeroyMerlin" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Wyo8Tmwtrhiz39mYa8xumGvIlL" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="SwiftParser.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vkondaurov\IdeaProjects\com.LeroyMerlin\src\main\java" />
-      <recent name="C:\Users\vkondaurov\IdeaProjects\com.LeroyMerlin\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="FinParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwiftParser.service.FinParser" />
-      <module name="SwiftHandler.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwiftParser.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.FinParser" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s7/upload_service" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -68,38 +60,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="255438d0-e259-4c03-934c-67258d5e2529" name="Default Changelist" comment="" />
-      <created>1579707825601</created>
+      <changelist id="d9d3d53a-d354-4674-92bb-ad54647976db" name="Default Changelist" comment="" />
+      <created>1580131036021</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579707825601</updated>
+      <updated>1580131036021</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579708119585">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580132299871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579708119585" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579707928130">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579707928130" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1579708091010">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579708091010" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1579708091010">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579708091010" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1579708091010">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579708091010" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1579708091010">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579708091010" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580132299871" />
   </component>
 </project>
