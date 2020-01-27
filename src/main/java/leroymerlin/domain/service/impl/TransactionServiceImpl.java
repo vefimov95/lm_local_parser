@@ -13,23 +13,23 @@ import java.util.List;
 @Service
 public class TransactionServiceImpl implements TransactionService {
 
-    @Autowired
+//    @Autowired
     private ClientService clientService;
 
-    @Autowired
+//    @Autowired
     private BankService bankService;
 
-    @Autowired
+//    @Autowired
     private AccountService accountService;
 
-    @Autowired
+//    @Autowired
     private TransactionTypeService transactionTypeService;
 
-    @Autowired
-    @Qualifier("domain")
+//    @Autowired
+//    @Qualifier("domain")
     private TransformationService transformationService;
 
-    @Autowired
+//    @Autowired
     private TransactionRepository transactionRepository;
 
     @Override
@@ -76,7 +76,7 @@ public class TransactionServiceImpl implements TransactionService {
                 Transaction transaction = transformationService.getTransactionFromXml(transactionXml.getTransactionDetailsXml(),
                         accountSender, accountRecipient, transactionType);
 
-                transaction = transactionRepository.save(transaction);
+//                transaction = transactionRepository.save(transaction);
 
                 transactionXml.setId(transaction.getId());
         }

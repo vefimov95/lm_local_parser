@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class AccountServiceImpl implements AccountService {
     @Autowired
     private AccountRepository accountRepository;
@@ -37,7 +37,7 @@ public class AccountServiceImpl implements AccountService {
         if (accountXml.getNumber() != null && client != null && bank != null) {
             if (!accountRepository.existsByNumber(accountXml.getNumber())) {
                 Account account = transformationService.getAccountFromXml(accountXml, client, bank);
-                account = accountRepository.save(account);
+//                account = accountRepository.save(account);
                 return account;
             } else {
                 throw new AccountException("Account with number " + accountXml.getNumber() + "exist in DB");

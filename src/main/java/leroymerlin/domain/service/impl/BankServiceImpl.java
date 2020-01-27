@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class BankServiceImpl implements BankService {
 
     @Autowired
@@ -47,7 +47,7 @@ public class BankServiceImpl implements BankService {
         if (bankXml.getSwiftNumber() != null) {
             if (!bankRepository.existsBySwiftNumber(bankXml.getSwiftNumber())) {
                 Bank bank = transformationService.getBankFromXml(bankXml);
-                bank = bankRepository.save(bank);
+//                bank = bankRepository.save(bank);
                 return bank;
             } else {
                 throw new BankException("Bank with swift code " + bankXml.getSwiftNumber() + "exist in DB");

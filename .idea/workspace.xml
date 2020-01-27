@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d3d53a-d354-4674-92bb-ad54647976db" name="Default Changelist" comment="" />
+    <list default="true" id="d9d3d53a-d354-4674-92bb-ad54647976db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/ABCDRUMM_camt.053.001.02.RU2018.01(FCY).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/ABCDRUMM_camt.053.001.02.RU2018.01(RUB).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/models/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/BankRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/TransactionTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/repository/TransactionTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/BankServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/BankServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransactionTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransactionTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransformationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leroymerlin/domain/service/impl/TransformationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +79,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s7/upload_service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leroymerlin.Application" />
+      <module name="LeroyMerlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leroymerlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,5 +132,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580132299871" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580137912911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580137912911" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1580137859591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580137859591" />
   </component>
 </project>

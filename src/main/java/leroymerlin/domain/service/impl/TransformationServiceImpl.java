@@ -9,7 +9,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@Service(value = "domain")
+//@Service(value = "domain")
 class TransformationServiceImpl implements TransformationService {
     private static final String pattern = "YYYY-MM-DD";
 

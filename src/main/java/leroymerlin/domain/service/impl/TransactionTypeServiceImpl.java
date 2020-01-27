@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class TransactionTypeServiceImpl implements TransactionTypeService {
 
     @Autowired
@@ -36,7 +36,7 @@ public class TransactionTypeServiceImpl implements TransactionTypeService {
         if (transactionTypeXml.getTypeCode() != null) {
             if (!typeRepository.existsByCode(transactionTypeXml.getTypeCode())) {
                 TransactionType transactionType = transformationService.getTransactionTypeFromXml(transactionTypeXml);
-                transactionType =  typeRepository.save(transactionType);
+//                transactionType =  typeRepository.save(transactionType);
                 return transactionType;
             } else {
                 throw new BankException("Type of transaction with code " + transactionTypeXml.getTypeCode() + "exist in DB");

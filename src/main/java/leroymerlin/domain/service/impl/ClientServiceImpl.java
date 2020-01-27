@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class ClientServiceImpl implements ClientService {
     @Autowired
     private ClientRepository clientRepository;
@@ -46,7 +46,7 @@ public class ClientServiceImpl implements ClientService {
         if (clientXml.getName() != null) {
             if (!clientRepository.existsByName(clientXml.getName())) {
                 Client client = transformationService.getClientFromXml(clientXml);
-                client = clientRepository.save(client);
+//                client = clientRepository.save(client);
                 return client;
             } else {
                 throw new ClientException("Client with inn " + clientXml.getTxId() + "exist in DB");

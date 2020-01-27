@@ -5,52 +5,51 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 import java.util.Date;
 
 @Data
-@Entity
-@Table(name = "transaction")
+//@Entity
+//@Table(name = "transaction")
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class Transaction {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="id")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    //@Column(name="id")
     private Long id;
 
-    @Column(name = "currency")
+    //@Column(name = "currency")
     private String currency;
 
-    @Column(name = "amount")
+    //@Column(name = "amount")
     private Double amount;
 
-    @Column(name = "status")
+    //@Column(name = "status")
     private String status;
 
-    @Column(name = "date_val")
+    //@Column(name = "date_val")
     private Date dateVal;
 
-    @Column(name = "date_book")
+    //@Column(name = "date_book")
     private Date dateBook;
 
-    @Column(name = "purpose")
+    //@Column(name = "purpose")
     private String purpose;
 
-    @Column(name = "reference")
+    //@Column(name = "reference")
     private String reference;
 
-    @ManyToOne(targetEntity = TransactionType.class)
-    @JoinColumn(name = "type_id")
+//    @ManyToOne(targetEntity = TransactionType.class)
+//    @JoinColumn(name = "type_id")
     private TransactionType typeTrans;
 
-    @ManyToOne(targetEntity = Account.class)
-    @JoinColumn(name = "sender_id")
+//    @ManyToOne(targetEntity = Account.class)
+//    @JoinColumn(name = "sender_id")
     private Account accountSender;
 
-    @ManyToOne(targetEntity = Account.class)
-    @JoinColumn(name = "recipient_id")
+//    @ManyToOne(targetEntity = Account.class)
+//    @JoinColumn(name = "recipient_id")
     private Account accountRecipient;
 
 }
